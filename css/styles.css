@@ -1,0 +1,85 @@
+/*=====================================
+                Base
+======================================*/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    font: normal 700 "Averia Serif Libre", serif;
+    color: #eca136;
+    background: #092633;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+}
+/*===================================
+            Composantes
+===================================*/
+
+/*----------Header----------*/
+header{
+    width: 1000px;
+    background: #15384995;
+    position: fixed;
+    left:  calc(50% - 500px);
+    top: 0;
+    z-index: 5;
+    border-radius: 0 0 20px 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 4.0rem;
+}
+/*-----------Section modules----------*/
+.contenu{
+    max-width: 925px;
+    margin: 100px auto 0;
+}
+.photo{
+    max-width: 100%;
+}
+.contenu ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 45px;
+    list-style: none;
+    padding: 0;
+}
+.contenu li{
+    padding: 20px;
+    background: #153849;
+    border-radius: 10px;
+    position: relative;
+}
+.bouton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+.bouton span{
+    position:absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #ffffff50;
+    border-radius:0 0 0 5px ;
+    cursor: pointer;
+}
+
