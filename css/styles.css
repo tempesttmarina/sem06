@@ -98,4 +98,29 @@ footer p{
     font-size: 1.6rem;
     text-transform: uppercase;
 }
+/*-----------Nav----------*/
+.media{
+    position: fixed;
+    left: 0;
+    top: 200px;
+    background: #153849;
+    border-radius: 0 15px 15px 0;
+}
+.media ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.media a{
+    position: relative;
+}
+.media a:hover{
+    left: 3px;
+}
+.media img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
 
