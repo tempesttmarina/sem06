@@ -123,4 +123,26 @@ footer p{
     width: 50px;
     margin: 10px;
 }
-
+/*-----------Fenêtre modale---------*/
+img.zoom{
+    width: 800px;
+    height: 600px;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+}
+.modale{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: #00000080;
+    display: none;
+}
+.modale.visible{
+    display: flex;
+}
