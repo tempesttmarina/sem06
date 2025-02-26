@@ -84,4 +84,18 @@ h1{
 }
 
 /*-------------Footer------------*/
+footer {
+    background: #15384995;
+    border-radius: 15px 15px 0 0;
+}
+footer .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+footer p{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
 
